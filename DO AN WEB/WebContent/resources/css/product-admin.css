@@ -1,0 +1,333 @@
+.wraper, .container {
+  width: 1200px;
+}
+
+.space {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .wraper .left img {
+  width: 250px;
+  height: 120px;
+}
+
+.header .wraper .mid {
+  position: relative;
+}
+
+.header .wraper .mid input {
+  width: 400px;
+  height: 40px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  border: 1px solid #7f8c8d;
+  padding: 15px 15px 15px 35px;
+  border-radius: 50px;
+}
+
+.header .wraper .mid input:focus {
+  border: 1px solid #3498db;
+}
+
+.header .wraper .mid button {
+  cursor: pointer;
+}
+
+.header .wraper .mid button:hover i {
+  color: #3498db;
+}
+
+.header .wraper .mid button i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: #2d3436;
+  font-size: 15px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.header .wraper .right ul li {
+  text-transform: uppercase;
+  font-size: 16px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  margin-right: 15px;
+}
+
+.header .wraper .right ul li:last-child {
+  margin-right: 0;
+}
+
+.header .wraper .right ul li:hover {
+  color: #3498db;
+}
+
+.header .wraper .right ul li a {
+  color: #2d3436;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.header .wraper .right ul li a:hover {
+  color: #3498db;
+}
+
+.header .wraper .right ul li img {
+  width: 30px;
+  height: 30px;
+}
+
+.menu-products {
+  background-color: #3498db;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-products .wraper ul li {
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  color: #ecf0f1;
+  position: relative;
+  cursor: pointer;
+}
+
+.menu-products .wraper ul li:hover ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu-products .wraper ul li i {
+  font-size: 18px;
+  color: #ecf0f1;
+}
+
+.menu-products .wraper ul li .infor {
+  margin-left: 15px;
+}
+
+.menu-products .wraper ul li .infor a {
+  text-transform: uppercase;
+  color: #ecf0f1;
+  font-size: 18px;
+}
+
+.menu-products .wraper ul li > ul {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  top: 38px;
+  width: 200px;
+  background-color: #3498db;
+  border-radius: 2px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: none;
+}
+
+.menu-products .wraper ul li > ul li {
+  color: #ecf0f1;
+  text-transform: uppercase;
+  padding: 18px;
+  width: 100%;
+  height: 20px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.menu-products .wraper ul li > ul li:hover {
+  background-color: #40739e;
+}
+
+.menu-products .wraper ul li > ul li a {
+  color: white;
+}
+
+.product {
+  margin: 25px 0;
+  
+}
+
+.product .container .menu-product {
+  background-color: #dfe6e9;
+  position: relative;
+}
+
+.product .container .menu-product::after {
+  position: absolute;
+  content: '';
+  width: 1020px;
+  height: 1px;
+  right: 0;
+  bottom: 0;
+  background-color: #2d3436;
+}
+
+.product .container .menu-product h1 {
+  width: 180px;
+  text-align: center;
+  background-color: #3498db;
+  color: #ecf0f1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.product .container .lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.product .container .lists .item {
+
+  -ms-flex-preferred-size: 24.5%;
+      flex-basis: 24.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  border: 0.5px solid #b2bec3;
+  padding: 15px;
+  margin: 5px 5px 2px 0;
+}
+
+.product .container .lists .item img {
+  width: 100px;
+  height: 120px;
+}
+
+.product .container .lists .item h3 {
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+
+.product .container .lists .item h3:last-child {
+  margin-top: 10px;
+  color: black;
+  font-weight: 700;
+}
+
+.product .container .lists .btn {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.product .container .lists .btn a i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 32px;
+  background-color: #2980b9;
+  border-radius: 2px;
+  color: white;
+}
+
+.product .container .lists .btn button i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 32px;
+  background-color: #c0392b; 
+  border-radius: 2px;
+  color: white;
+}
+.product .container .lists .btn .but {
+  margin-left: 5px;
+}
+
+.product .container .lists .btn .but i {
+	
+  background-color: #c0392b;
+}
+
+.footer {
+  background-color: #3498db;
+  padding: 15px 0;
+}
+
+.footer .wraper {
+  text-align: center;
+  color: #ecf0f1;
+}
+
+.footer .wraper p {
+  font-size: 16px;
+  line-height: 26px;
+}
+/*# sourceMappingURL=productsAdmin.css.map */

@@ -1,0 +1,351 @@
+.wraper {
+  width: 1200px;
+}
+
+.space {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .wraper .left img {
+  width: 250px;
+  height: 120px;
+}
+
+.header .wraper .mid {
+  position: relative;
+}
+
+.header .wraper .mid input {
+  width: 400px;
+  height: 40px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  border: 1px solid #7f8c8d;
+  padding: 15px 15px 15px 35px;
+  border-radius: 50px;
+}
+
+.header .wraper .mid input:focus {
+  border: 1px solid #3498db;
+}
+
+.header .wraper .mid button {
+  cursor: pointer;
+}
+
+.header .wraper .mid button:hover i {
+  color: #3498db;
+}
+
+.header .wraper .mid button i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: #2d3436;
+  font-size: 15px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.header .wraper .right ul li {
+  text-transform: uppercase;
+  font-size: 16px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  margin-right: 15px;
+}
+
+.header .wraper .right ul li:last-child {
+  margin-right: 0;
+}
+
+.header .wraper .right ul li:hover {
+  color: #3498db;
+}
+
+.header .wraper .right ul li a {
+  color: #2d3436;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.header .wraper .right ul li a:hover {
+  color: #3498db;
+}
+
+.header .wraper .right ul li img {
+  width: 30px;
+  height: 30px;
+}
+
+.menu-products {
+  background-color: #3498db;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-products .wraper ul li {
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  color: #ecf0f1;
+  position: relative;
+  cursor: pointer;
+}
+
+.menu-products .wraper ul li:hover ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu-products .wraper ul li i {
+  font-size: 18px;
+  color: #ecf0f1;
+}
+
+.menu-products .wraper ul li .infor {
+  margin-left: 15px;
+}
+
+.menu-products .wraper ul li .infor a {
+  text-transform: uppercase;
+  color: #ecf0f1;
+  font-size: 18px;
+}
+
+.menu-products .wraper ul li > ul {
+  position: absolute;
+  left: 0;
+  top: 38px;
+  width: 200px;
+  background-color: #3498db;
+  border-radius: 2px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: none;
+}
+
+.menu-products .wraper ul li > ul li {
+  color: #ecf0f1;
+  text-transform: uppercase;
+  padding: 18px;
+  width: 100%;
+  height: 20px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.menu-products .wraper ul li > ul li:hover {
+  background-color: #40739e;
+}
+
+.menu-products .wraper ul li > ul li a {
+  color: white;
+}
+
+.edit-product {
+  height: 680px;
+}
+
+.edit-product .wraper h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  padding-bottom: 10px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  color: #2d3436;
+  border-bottom: 4px solid #3498db;
+}
+
+.edit-product .wraper .form {
+  width: 70%;
+  margin: 0 auto;
+  padding: 15px 0;
+  letter-spacing: 0.4px;
+}
+
+.edit-product .wraper .form form .id-pro,
+.edit-product .wraper .form form .name-pro,
+.edit-product .wraper .form form .count-pro,
+.edit-product .wraper .form form .amount-pro,
+.edit-product .wraper .form form .date-pro,
+.edit-product .wraper .form form .gender-pro,
+.edit-product .wraper .form form .brand-pro,
+.edit-product .wraper .form form .color-pro,
+.edit-product .wraper .form form .image-pro {
+  margin: 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.edit-product .wraper .form form .id-pro p,
+.edit-product .wraper .form form .name-pro p,
+.edit-product .wraper .form form .count-pro p,
+.edit-product .wraper .form form .amount-pro p,
+.edit-product .wraper .form form .date-pro p,
+.edit-product .wraper .form form .gender-pro p,
+.edit-product .wraper .form form .brand-pro p,
+.edit-product .wraper .form form .color-pro p,
+.edit-product .wraper .form form .image-pro p {
+  color: #2d3436;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.edit-product .wraper .form form .id-pro input,
+.edit-product .wraper .form form .name-pro input,
+.edit-product .wraper .form form .count-pro input,
+.edit-product .wraper .form form .amount-pro input,
+.edit-product .wraper .form form .date-pro input,
+.edit-product .wraper .form form .gender-pro input,
+.edit-product .wraper .form form .brand-pro input,
+.edit-product .wraper .form form .color-pro input,
+.edit-product .wraper .form form .image-pro input {
+  padding: 10px;
+  border-radius: 2px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  border: 1px solid #7f8c8d;
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+}
+
+.edit-product .wraper .form form .name-user input:focus,
+.edit-product .wraper .form form .address-user input:focus,
+.edit-product .wraper .form form .phone-user input:focus,
+.edit-product .wraper .form form .name-pro input:focus,
+.edit-product .wraper .form form .sum-pro input:focus {
+  border: 1px solid #3498db;
+}
+
+.edit-product .wraper .form form .name-user input[type=number]::-webkit-inner-spin-button,
+.edit-product .wraper .form form .name-user input[type=number]::-webkit-outer-spin-button,
+.edit-product .wraper .form form .address-user input[type=number]::-webkit-inner-spin-button,
+.edit-product .wraper .form form .address-user input[type=number]::-webkit-outer-spin-button,
+.edit-product .wraper .form form .phone-user input[type=number]::-webkit-inner-spin-button,
+.edit-product .wraper .form form .phone-user input[type=number]::-webkit-outer-spin-button,
+.edit-product .wraper .form form .name-pro input[type=number]::-webkit-inner-spin-button,
+.edit-product .wraper .form form .name-pro input[type=number]::-webkit-outer-spin-button,
+.edit-product .wraper .form form .sum-pro input[type=number]::-webkit-inner-spin-button,
+.edit-product .wraper .form form .sum-pro input[type=number]::-webkit-outer-spin-button
+ {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.edit-product .wraper .form form .btn-image button {
+  background-color: #3498db;
+  opacity: 0.8;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+  border: none;
+  width: 110px;
+  height: 30px;
+  color: white;
+  font-size: 15px;
+  border-radius: 2px;
+  margin-left: 170px;
+}
+
+.edit-product .wraper .form form .btn-image button:hover {
+  opacity: 1;
+}
+
+.edit-product .wraper .form form .btn-save {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.edit-product .wraper .form form .btn-save button {
+  text-transform: uppercase;
+  background-color: #27ae60;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+  border: none;
+  width: 110px;
+  height: 40px;
+  color: white;
+  font-size: 15px;
+  border-radius: 2px;
+  margin-left: 170px;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #3498db;
+  padding: 15px 0;
+}
+
+.footer .wraper {
+  text-align: center;
+  color: #ecf0f1;
+}
+
+.footer .wraper p {
+  font-size: 16px;
+  line-height: 26px;
+}
+/*# sourceMappingURL=products.css.map */

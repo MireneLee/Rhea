@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/views/admin/home.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/admin/product-admin.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/admin/save.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/trangchu.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/user/register.jsp=UTF-8
+encoding//src/web/controller/AdminController.java=UTF-8
+encoding//src/web/controller/UserController.java=UTF-8

@@ -1,0 +1,19 @@
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   letter-spacing: 0.2px;
+   ul{
+      li{
+         list-style: none;
+      }
+   }
+   a{
+      text-decoration: none;
+   }
+   input,button{
+      border: none;
+      outline: none;
+   }
+}

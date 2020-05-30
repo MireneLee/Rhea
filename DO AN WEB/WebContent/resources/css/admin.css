@@ -1,0 +1,230 @@
+.container {
+	width: 1200px !important;
+}
+
+.space {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.flex {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.mid {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.header .container .left img {
+	width: 250px;
+	height: 120px;
+}
+
+.header .container .mid {
+	position: relative;
+}
+
+.header .container .mid input {
+	width: 400px;
+	height: 40px;
+	-webkit-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+	border: 1px solid #7f8c8d;
+	padding: 15px 15px 15px 35px;
+	border-radius: 50px;
+}
+
+.header .container .mid input:focus {
+	border: 1px solid #3498db;
+}
+
+.header .container .mid button {
+	cursor: pointer;
+}
+
+.header .container .mid button:hover i {
+	color: #3498db;
+}
+
+.header .container .mid button i {
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	color: #2d3436;
+	font-size: 15px;
+	-webkit-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+}
+
+.header .container .right ul li {
+	text-transform: uppercase;
+	font-size: 16px;
+	-webkit-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+	margin-right: 15px;
+}
+
+.header .container .right ul li:last-child {
+	margin-right: 0;
+}
+
+.header .container .right ul li:hover {
+	color: #3498db;
+}
+
+.header .container .right ul li a {
+	color: #2d3436;
+	-webkit-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+}
+
+.header .container .right ul li a:hover {
+	color: #3498db;
+}
+
+.header .container .right ul li img {
+	width: 30px;
+	height: 30px;
+}
+
+.menu {
+	margin-bottom: 25px;
+	background-color: #3498db;
+}
+
+.menu .container ul li {
+	padding: 10px 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	font-size: 16px;
+	color: #ecf0f1;
+	position: relative;
+	cursor: pointer;
+}
+
+.menu .container ul li:hover ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.menu .container ul li i {
+	font-size: 18px;
+	color: #ecf0f1;
+}
+
+.menu .container ul li .infor {
+	margin-left: 15px;
+}
+
+.menu .container ul li .infor a {
+	text-transform: uppercase;
+	color: #ecf0f1;
+	font-size: 18px;
+}
+
+.menu .container ul li>ul {
+	position: absolute;
+	left: 0;
+	top: 38px;
+	width: 200px;
+	background-color: #3498db;
+	border-radius: 2px;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	display: none;
+}
+
+.menu .container ul li>ul li {
+	color: #ecf0f1;
+	text-transform: uppercase;
+	padding: 18px;
+	width: 100%;
+	height: 20px;
+	-webkit-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+}
+
+.menu .container ul li>ul li:hover {
+	background-color: #40739e;
+}
+
+.menu .container ul li>ul li a {
+	color: white;
+}
+
+.body {
+	font-family: 'Merriweather', serif;
+	margin: 25px 0;
+}
+
+.body .container .left {
+	width: 580px;
+	margin-right: 25px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border: 1px solid #3498db;
+}
+
+.body .container .left img {
+	width: 540px;
+	height: 400px;
+}
+
+.body .container .right p {
+	margin-bottom: 10px;
+}
+
+.footer {
+	background-color: #3498db;
+	padding: 15px 0;
+}
+
+.footer .container {
+	text-align: center;
+	color: #ecf0f1;
+}
+
+.footer .container p {
+	font-size: 16px;
+	line-height: 26px;
+}
+/*# sourceMappingURL=admin.css.map */
